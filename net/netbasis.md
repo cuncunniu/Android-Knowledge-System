@@ -2,6 +2,7 @@
 ## 1.get请求
 
   get请求的基本用法:
+  java
   String url = "http://blog.csdn.net/itachi85";
         final Request request = new Request.Builder()
                 .method("GET", null)
